@@ -37,6 +37,6 @@ document
   .addEventListener("click", function () {
     var downloadLink = document.createElement("a");
     downloadLink.href = "./Abdulrahman Reda.pdf";
-    downloadLink.download = "Abdelrhman Reda CV";
+    downloadLink.download = "Abdulrahman Reda";
     downloadLink.click();
   });
