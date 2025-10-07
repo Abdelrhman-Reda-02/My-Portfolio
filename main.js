@@ -36,7 +36,7 @@ document
   .getElementById("downloadButton")
   .addEventListener("click", function () {
     var downloadLink = document.createElement("a");
-    downloadLink.href = "./Abdelrhman Reda CV.pdf";
-    downloadLink.download = "Abdelrhman Reda CV";
+    downloadLink.href = "./Abdelrhman Reda.pdf";
+    downloadLink.download = "Abdelrhman Reda";
     downloadLink.click();
   });
